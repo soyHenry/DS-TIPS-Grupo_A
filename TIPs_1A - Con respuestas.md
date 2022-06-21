@@ -43,7 +43,8 @@ valor final (-3) Se forma por (-5 +4 -3 +2 -1) <br>
 
 El programa debe devolver  (-3) y [2,4] <br>
 
-```n=int(input("Cantidad de numeros: "))  
+```
+n=int(input("Cantidad de numeros: "))  
 suma = 0 #inicializo la suma
 par=[]
 impar=[]
