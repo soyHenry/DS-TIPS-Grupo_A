@@ -12,7 +12,7 @@ Esto tampoco quiere decir que hay que darle las respuestas facilmente, se lo pue
 ### 2)¿Con qué métodos puedo agregar nuevos elementos a una lista en Python?
 
 
-### 3)¿Si la lista 1 es [9, 7, 2, 4, 5, 6], que seria la lista 1 [-6]?
+### 3)¿Si la lista_1 es [9, 7, 2, 4, 5, 6], que seria la lista_1 [-6]?
 
 
 ## Practico: 
