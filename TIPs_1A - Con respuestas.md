@@ -19,7 +19,7 @@ Para agregar elementos a una lista en Python es posible utilizar el método .app
 índice espeficificado, por ejemplo lista.insert(1, 'manzana') insertaría en el índice 1, el elemento 'manzana' sin reemplazar ningún valor original. Por último, el método .extend() une cualquier 
 iterable u otra lista a la lista original, desde el final de la lista original
 
-### 3)¿Si la lista 1 es [9, 7, 2, 4, 5, 6], que seria la lista 1 [-6]?
+### 3)¿Si la lista_1 es [9, 7, 2, 4, 5, 6], que seria la lista_1 [-6]?
 Con números negativos, el valor del índice refiere desde el último índice de la lista, el -1 sería el último valor, "6", por lo tanto la respuesta seria "9".
 
 
@@ -47,20 +47,20 @@ print(frase_t)
 
 ### Resolución propuesta
 
-palabras = frase.split()
-nueva_palabra = ""
-traduccion = []
+palabras = frase.split()<br>
+nueva_palabra = ""<br>
+traduccion = []<br>
 
-for palabra in palabras:
-    if  palabra[-1:] == "o":
-        nueva_palabra = palabra[:-1] + "e"
-    elif len(palabra) > 1 and palabra[-2] == "o": # si tiene mas de 1 letra, busco la palabra en -2 para evitar errores si hay palabras de una sola letra. en Python evalua la primera y si es falsa, deja de evaluar (lazy evaluation).
-        nueva_palabra = palabra[:-2] + "e" + palabra[-1]
-    else:
-        nueva_palabra = palabra
-    traduccion.append(nueva_palabra)
-    #print(palabra, nueva_palabra)
+for palabra in palabras:<br>
+    if  palabra[-1:] == "o":<br>
+        nueva_palabra = palabra[:-1] + "e"<br>
+    elif len(palabra) > 1 and palabra[-2] == "o": # si tiene mas de 1 letra, busco la palabra en -2 para evitar errores si hay palabras de una sola letra. en Python evalua la primera y si es falsa, deja de evaluar (lazy evaluation).<br>
+        nueva_palabra = palabra[:-2] + "e" + palabra[-1]<br>
+    else:<br>
+        nueva_palabra = palabra<br>
+    traduccion.append(nueva_palabra)<br>
+    #print(palabra, nueva_palabra)<br>
 
-frase_t = " ".join(traduccion)
+frase_t = " ".join(traduccion)<br>
 
-print(frase_t)
+print(frase_t)<br>
