@@ -2,7 +2,7 @@ PREGUNTAS TEÓRICAS
 
 1) ¿Ante qué operaciones se puede ejecutar un Trigger en SQL?
 
-2) ¿Cuáles son los tipos de JOIN que se pueden realizar en SQL?
+2) ¿Cuál es la diferencia entre una vista y una vista materializada?
 
 3) ¿Cómo harías para quedarte con las primeras tres letras de una palabra en SQL?
 
